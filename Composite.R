@@ -25,4 +25,4 @@ Sys.setlocale(category="LC_ALL",locale="en_US.UTF-8")
 par(family='宋體-繁 細體')
 
 #繪製長條圖
-barplot(bind,beside=TRUE,, xlab="國別", ylab="留學生人數",legend=rownames(bind),family="宋體-繁 細體")
+barplot(merge_matrix,beside=TRUE,, xlab="國別", ylab="留學生人數",family="宋體-繁 細體")
